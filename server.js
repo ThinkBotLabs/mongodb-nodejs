@@ -23,9 +23,9 @@ MongoClient.connect("mongodb+srv://aaron:9MyY$ag2hZABx@pj@cluster0-cecpd.mongodb
 
 
     //add a listener so browsers can connect to us
-    app.listen(4200, function ()
+    app.listen(32000, function ()
     {
-        console.log("listening on port 4200")
+        console.log("listening on port 32000")
     })
 })
 
