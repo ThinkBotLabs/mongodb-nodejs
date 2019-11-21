@@ -8,8 +8,8 @@ spec:
     app: nodejs-alpine
   ports:
   - protocol: TCP
-    port: 85
-    nodePort: 4200
+    port: 32000
+    nodePort: 32000
 
 ---
 
@@ -33,4 +33,4 @@ spec:
       - name: nodejs-alpine
         image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
         ports:
-        - containerPort: 85
+        - containerPort: 32000
