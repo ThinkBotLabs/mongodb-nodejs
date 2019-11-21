@@ -9,7 +9,7 @@ spec:
   ports:
   - protocol: TCP
     port: 85
-    nodePort: 32505
+    nodePort: 4200
 
 ---
 
