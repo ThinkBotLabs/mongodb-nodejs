@@ -14,7 +14,7 @@ const options = {
 
 }
 
-MongoClient.connect($CONNECTION_STRING, options,  (err, MongoClient) => 
+MongoClient.connect("mongodb+srv://aaron:9MyY$ag2hZABx@pj@cluster0-cecpd.mongodb.net/test?retryWrites=true&w=majority", options,  (err, MongoClient) => 
 {   
     if (err) return console.log(err)
 
